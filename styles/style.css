@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(180deg, rgb(175, 153, 171), white);
+}
+
+.preload * {
+  transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  min-height: 15vh;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  font-variant: small-caps;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  margin: 1vh 1vw;
+  transition-property: text-shadow, color;
+  -o-transition-property: text-shadow, color;
+  -ms-transition-property: text-shadow, color;
+  -moz-transition-property: text-shadow, color;
+  -webkit-transition-property: text-shadow, color;
+  transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+  -ms-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -webkit-transition: 0.7s ease;
+}
+
+.logo:hover {
+  color: indigo;
+  text-shadow: 0 0 10px white;
+}
+
+.logo > img {
+  max-height: 10vh;
+}
+
+.pages {
+  display: flex;
+  gap: 3vw;
+  margin: 1vh 1vw;
+}
+
+.page {
+  transition-property: text-shadow, color;
+  -o-transition-property: text-shadow, color;
+  -ms-transition-property: text-shadow, color;
+  -moz-transition-property: text-shadow, color;
+  -webkit-transition-property: text-shadow, color;
+  transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+  -ms-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -webkit-transition: 0.7s ease;
+}
+
+.page:hover {
+  color: indigo;
+  text-shadow: 0 0 10px white;
+}
+
+.connection {
+  margin: 1vh 1vw;
+  padding: 1vh 2.5vw;
+  border: indigo 2.5px solid;
+  border-radius: 25px;
+  transition-property: background-color, color;
+  -o-transition-property: background-color, color;
+  -ms-transition-property: background-color, color;
+  -moz-transition-property: background-color, color;
+  -webkit-transition-property: background-color, color;
+  transition: 0.7s ease;
+  -o-transition: 0.7s ease;
+  -ms-transition: 0.7s ease;
+  -moz-transition: 0.7s ease;
+  -webkit-transition: 0.7s ease;
+}
+
+.connection > h2 {
+  margin: 0;
+}
+
+.connection:hover {
+  background-color: indigo;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  min-height: 15vh;
+  font-variant: small-caps;
+  background-color: rgb(24, 24, 24);
+  color: white;
+  justify-content: space-between;
+}
+
+.footerLogo {
+  align-items: center;
+  display: flex;
+  gap: 1vw;
+  margin: 0 7.5vw;
+  color: white;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  margin: 0 7.5vw;
+}
+
+.info {
+  color: white;
+}
+
+.footerLogo > img {
+  max-height: 10vh;
+  filter: invert(100%);
+}
+
+.content {
+  margin: 7.5vh 7.5vw;
+}
