@@ -13,7 +13,14 @@ html {
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background {
   background: linear-gradient(180deg, rgb(175, 153, 171), white);
+  min-height: 100vh;
+  min-width: 100vw;
+  z-index: -1;
+  position: absolute;
 }
 
 .preload * {
@@ -257,6 +264,42 @@ a {
 
   .homeImg > img {
     max-width: 40vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .homeImg {
+    display: none;
+  }
+
+  .homeTxt {
+    max-width: 80vw;
+  }
+
+  .buttons {
+    gap: 5vw;
+  }
+
+  .button {
+    padding: 2vh 5vw;
+    font-size: 1.5em;
+    max-width: 30vw;
+  }
+
+  .homeTxt {
+    max-width: 80vw;
+  }
+
+  .homeTxt > h2 {
+    font-size: 2em;
+  }
+
+  .homeTxt > h3 {
+    font-size: 1.5em;
+  }
+
+  .homeTxt > p {
+    font-size: 1em;
   }
 }
 
