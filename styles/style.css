@@ -261,7 +261,7 @@ a {
 
 .card {
   min-width: 20vw;
-  background-color: rgb(175, 153, 171);
+  background-color: rgb(212, 194, 209);
   border-radius: 25px;
   padding: 2.5vh 2.5vw;
   min-height: 30vh;
@@ -424,6 +424,10 @@ a {
     font-size: 1em;
   }
 
+  .card {
+    margin: 2.5vh 0;
+  }
+
   .card > .title {
     font-size: 2em;
     margin: 2vh 5vw;
@@ -436,21 +440,25 @@ a {
   }
 
   .cardContent > .desc {
-    max-width: 70%;
+    max-width: 50%;
   }
 
   .square,
   .circle {
     background-color: indigo;
-    width: 20vw;
-    min-height: 20vw;
+    width: 30vw;
+    min-height: 30vw;
   }
 
   .triangle {
     width: 0;
     height: 0;
-    border-left: 10vw solid transparent;
-    border-right: 10vw solid transparent;
-    border-bottom: 20vw solid indigo;
+    border-left: 15vw solid transparent;
+    border-right: 15vw solid transparent;
+    border-bottom: 30vw solid indigo;
+  }
+
+  .footer > .infos {
+    font-size: 0.75em;
   }
 }
