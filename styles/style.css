@@ -240,6 +240,11 @@ a {
   gap: 2.5vw;
 }
 
+.burger {
+  display: none;
+  margin: 0 5vw;
+}
+
 @media screen and (max-width: 860px) {
   .button {
     padding: 1vh 1.5vw;
@@ -264,6 +269,23 @@ a {
 
   .homeImg > img {
     max-width: 40vw;
+  }
+
+  .pages {
+    display: none;
+  }
+
+  .connection {
+    display: none;
+  }
+
+  .burger {
+    display: initial;
+  }
+
+  .logo {
+    margin: 0 5vw;
+    gap: 3vw;
   }
 }
 
