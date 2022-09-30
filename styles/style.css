@@ -13,15 +13,17 @@ html {
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  overflow: hidden;
 }
 
 .background {
   background: linear-gradient(180deg, rgb(175, 153, 171), white);
   min-height: 100vh;
-  min-width: 100vw;
+  min-width: 99vw;
   z-index: -1;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .preload * {
