@@ -381,6 +381,10 @@ a {
     border-right: 12.5vw solid transparent;
     border-bottom: 25vw solid indigo;
   }
+
+  .cardContent > .desc {
+    margin: 0;
+  }
 }
 
 /* Small breakpoint */
@@ -428,25 +432,25 @@ a {
   .cardContent {
     flex-direction: row;
     justify-content: space-between;
-    margin: 1vh 5vw;
+    margin: 1vh 2.5vw;
   }
 
   .cardContent > .desc {
-    max-width: 60%;
+    max-width: 70%;
   }
 
   .square,
   .circle {
     background-color: indigo;
-    width: 25vw;
-    min-height: 25vw;
+    width: 20vw;
+    min-height: 20vw;
   }
 
   .triangle {
     width: 0;
     height: 0;
-    border-left: 12.5vw solid transparent;
-    border-right: 12.5vw solid transparent;
-    border-bottom: 25vw solid indigo;
+    border-left: 10vw solid transparent;
+    border-right: 10vw solid transparent;
+    border-bottom: 20vw solid indigo;
   }
 }
